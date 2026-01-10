@@ -52,7 +52,7 @@
 
             <!-- Change Password Button -->
   <div class="flex justify-center">
-    <button onclick="window.location.href='/change-password'" class="w-full sm:w-auto px-6 py-2 bg-green-600 text-white rounded-lg font-medium hover:bg-green-700 focus:outline-none transition duration-300 ease-in-out">Change Password</button>
+<button onclick="window.location.href='{% url 'password_change' %}'" class="w-full sm:w-auto px-6 py-2 bg-green-600 text-white rounded-lg font-medium hover:bg-green-700 focus:outline-none transition duration-300 ease-in-out">Change Password</button>
   </div>
 </div>
 {% endblock %}
