@@ -5,4 +5,5 @@ Pillow
 phonenumbers
 django-phonenumber-field
 whitenoise
+jinja2
 git+https://github.com/dmpayton/django-admin-honeypot.git#egg=django-admin-honeypot

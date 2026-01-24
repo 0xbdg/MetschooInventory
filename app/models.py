@@ -56,7 +56,7 @@ class Account(AbstractBaseUser, PermissionsMixin):
 
     USERNAME_FIELD = 'username'
     EMAIL_FIELD = 'email'
-    REQUIRED_FIELDS = ['email']
+    REQUIRED_FIELDS = []
 
     # Specify unique related names for groups and user_permissions
     groups = models.ManyToManyField(

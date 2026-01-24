@@ -32,7 +32,7 @@ class UpdateUserProfile(UserChangeForm):
     model = Account
     fields = ["username","first_name", "last_name","email","phonenumber"]
     
-class PasswordChangeForm(PasswordChangeForm):
+class PasswordChange(PasswordChangeForm):
   class Meta:
     model = Account
     fields = ['old_password','new_password1','new_password2']
